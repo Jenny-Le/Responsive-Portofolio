@@ -275,4 +275,17 @@ body {
 }
 }
 
+@media only screen and (max-width: 786px) {
+
+  .sidebar {
+    max-width: unset;
+    width: 100%;
+  }
+  .main-section {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+}
 
