@@ -270,12 +270,17 @@ body {
   width: 50%;
 }
 
+#main-container {
+  overflow: auto;
+  width: 90%;
+}
+
 .sidebar{
   width: 50%;
 }
 }
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 768px) {
 
   .sidebar {
     max-width: unset;
@@ -286,7 +291,12 @@ body {
     margin: auto;
     margin-bottom: 20px;
 }
-
+  .work {
+  width: 45%;
+}
+.work h3 {
+  padding:2px;
+}
 }
 
 @media only screen and (max-width: 640px) {
@@ -305,14 +315,23 @@ nav {
 nav a {
 
     width:28%;
-  }
+}
 
   .auth-image {
     width: 100%;
-  }
+}
   .main-section {
     width: 100%;
-  }
+}
+.img {
+  width: 100%;
+}
+
+.work {
+  width:100%;
+}
+ 
+
 
 }
 }
